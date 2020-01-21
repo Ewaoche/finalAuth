@@ -37,7 +37,7 @@ function sendVerificationEmail($userEmail, $token){
 // Create a message
 $message = (new Swift_Message('Verify your email address'))
 
-->setFrom(['radicemmy@gmail.com' => 'emmy'])
+->setFrom(['email' => 'emmy'])
 ->setTo($userEmail)
 ->setBody($body, 'text/html')
 ; 
