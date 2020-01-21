@@ -1,6 +1,6 @@
 <?php
-define('EMAIL', 'radicemmy@gmail.com');
-define('PASSWORD', '08156364534');
+define('EMAIL', 'email');
+define('PASSWORD', 'password');
 
 
 define('DB_HOST', 'localhost' );
